@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-17T12:14:20 IST" name="Suite" finished-at="2024-06-17T12:14:43 IST" duration-ms="22156">
+    <groups>
+    </groups>
+    <test started-at="2024-06-17T12:14:20 IST" name="LoginPage" finished-at="2024-06-17T12:14:27 IST" duration-ms="6538">
+      <class name="com.OHRM.TestCases.LoginPageTest">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.OHRM.TestCases.LoginPageTest@3f9342d4]" started-at="2024-06-17T12:14:20 IST" name="browserSetUp" finished-at="2024-06-17T12:14:25 IST" duration-ms="4363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.OHRM.TestCases.LoginPageTest@3f9342d4]" started-at="2024-06-17T12:14:25 IST" name="pageSetUp" finished-at="2024-06-17T12:14:27 IST" duration-ms="2093" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="verifyTitle()[pri:1, instance:com.OHRM.TestCases.LoginPageTest@3f9342d4]" started-at="2024-06-17T12:14:27 IST" name="verifyTitle" finished-at="2024-06-17T12:14:27 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method signature="verifyLogin()[pri:2, instance:com.OHRM.TestCases.LoginPageTest@3f9342d4]" started-at="2024-06-17T12:14:27 IST" name="verifyLogin" finished-at="2024-06-17T12:14:27 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+      </class> <!-- com.OHRM.TestCases.LoginPageTest -->
+    </test> <!-- LoginPage -->
+    <test started-at="2024-06-17T12:14:28 IST" name="AdminPage" finished-at="2024-06-17T12:14:43 IST" duration-ms="15014">
+      <class name="com.OHRM.TestCases.AdminPageTest">
+        <test-method is-config="true" signature="browserSetUp()[pri:0, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:28 IST" name="browserSetUp" finished-at="2024-06-17T12:14:32 IST" duration-ms="3975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetUp -->
+        <test-method is-config="true" signature="pageSetUp()[pri:0, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:32 IST" name="pageSetUp" finished-at="2024-06-17T12:14:33 IST" duration-ms="1763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageSetUp -->
+        <test-method signature="testLeftMenu()[pri:1, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:33 IST" name="testLeftMenu" finished-at="2024-06-17T12:14:35 IST" duration-ms="1885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLeftMenu -->
+        <test-method signature="validateAdminPage()[pri:2, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:35 IST" name="validateAdminPage" finished-at="2024-06-17T12:14:35 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAdminPage -->
+        <test-method signature="searchByUserName()[pri:3, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:35 IST" name="searchByUserName" finished-at="2024-06-17T12:14:38 IST" duration-ms="2729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserName -->
+        <test-method signature="searchByUserRole()[pri:4, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:38 IST" name="searchByUserRole" finished-at="2024-06-17T12:14:40 IST" duration-ms="2320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserRole -->
+        <test-method signature="searchByUserStatus()[pri:5, instance:com.OHRM.TestCases.AdminPageTest@30af5b6b]" started-at="2024-06-17T12:14:40 IST" name="searchByUserStatus" finished-at="2024-06-17T12:14:43 IST" duration-ms="2301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchByUserStatus -->
+      </class> <!-- com.OHRM.TestCases.AdminPageTest -->
+    </test> <!-- AdminPage -->
+  </suite> <!-- Suite -->
+</testng-results>
